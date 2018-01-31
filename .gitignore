@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DeckOfCards.API/.vs/DeckOfCards.API/v15
+/DeckOfCards.API/DeckOfCards.API/obj
