@@ -4,3 +4,6 @@
 
 /DeckOfCards.API/.vs/DeckOfCards.API/v15
 /DeckOfCards.API/DeckOfCards.API/obj
+/DeckOfCards.API/.vs/config/applicationhost.config
+/DeckOfCards.API/DeckOfCards.API/bin/Debug/netcoreapp2.0
+*.user
