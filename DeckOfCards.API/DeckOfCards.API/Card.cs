@@ -3,23 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 
 namespace DeckOfCards.API
 {
     public class Card
     {
-        public long Id { get; set; }
-        public string Suit { get; set; }
-        public string Face { get; set; }
-        public bool Played { get; set; }
-    }
-
-    public class CardContext : DbContext
-    {
-        public CardContext(DbContextOptions<CardContext> options) : base(options)
+        public Card(string suit, string face)
         {
+            this.Suit = suit;
+            this.Face = face;
         }
 
-        public DbSet<Card> Cards { get; set; }
+        public string Suit { get; set; }
+        public string Face { get; set; }
     }
 }

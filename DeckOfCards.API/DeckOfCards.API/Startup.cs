@@ -24,8 +24,14 @@ namespace DeckOfCards.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
-            services.AddDbContext<CardContext>(opt => opt.UseInMemoryDatabase("DeckOfCards"));
+            services.AddMvc().AddSessionStateTempDataProvider();
+            services.AddDbContext<JsonDeckContext>(opt =>
+            {
+                opt.UseInMemoryDatabase("Decks");
+                opt.EnableSensitiveDataLogging();
+            });
+            services.AddDistributedMemoryCache();
+            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -36,6 +42,7 @@ namespace DeckOfCards.API
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseSession();
             app.UseMvc();
         }
     }
