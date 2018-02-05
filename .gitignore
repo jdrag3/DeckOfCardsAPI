@@ -7,3 +7,4 @@
 /DeckOfCards.API/.vs/config/applicationhost.config
 /DeckOfCards.API/DeckOfCards.API/bin/Debug/netcoreapp2.0
 *.user
+/DeckOfCards.API/DeckOfCards.API/bin/Release/netcoreapp2.0
