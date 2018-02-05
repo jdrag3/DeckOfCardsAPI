@@ -8,3 +8,6 @@
 /DeckOfCards.API/DeckOfCards.API/bin/Debug/netcoreapp2.0
 *.user
 /DeckOfCards.API/DeckOfCards.API/bin/Release/netcoreapp2.0
+/DeckOfCards.API/DeckOfCardsUnitTest/bin/Debug/netcoreapp2.0
+/DeckOfCards.API/DeckOfCardsUnitTest/obj/Debug/netcoreapp2.0
+/DeckOfCards.API/DeckOfCardsUnitTest/obj
