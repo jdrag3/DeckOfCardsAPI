@@ -1,20 +1,13 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+A ASP.NET Core 2.0 Web API to produce a deck of 52 standard playing cards (Ace - King, Clubs - Spades) in JSON format and allow:
+- Generateration of new unshuffled deck of cards
+- Shuffling the deck (using Fisher-Yates shuffle https://en.wikipedia.org/wiki/Fisher–Yates_shuffle)
+- Cutting the deck
+- Get top card from the deck
+- Get entire deck, split into 2 sets 'Dealt Cards' and 'Cards'
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+API is hosted on azure https://deckofcardsapi.azurewebsites.net/swagger
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
-
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://www.visualstudio.com/en-us/docs/git/create-a-readme). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+Open solution in VS2017 (15.5.5) build and run or run all tests
