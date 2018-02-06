@@ -11,28 +11,24 @@
         public string Suit { get; set; }
         public string Face { get; set; }
 
-        public static bool operator ==(Card card1, Card card2)
-        {
-            if ((card1.Face.CompareTo(card2.Face) == 0) &&
-                (card1.Suit.CompareTo(card2.Suit) == 0))
-            {
-                return true;
-            }
-
-            return false;
-        }
-
-        public static bool operator !=(Card card1, Card card2)
-        {
-            return !(card1 == card2);
-        }
-
+        // overriding for unit tests
         public override bool Equals(object obj)
         {
+            if (obj == null)
+            {
+                return false;
+            }
+
             if (obj is Card)
             {
                 Card card = obj as Card;
-                return (this == card);
+                if (card == null)
+                {
+                    return false;
+                }
+
+                return ((this.Face.CompareTo(card.Face) == 0) &&
+                    (this.Suit.CompareTo(card.Suit) == 0));
             }
             return false;
         }

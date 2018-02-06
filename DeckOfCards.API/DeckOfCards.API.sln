@@ -5,9 +5,10 @@ VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeckOfCards.API", "DeckOfCards.API\DeckOfCards.API.csproj", "{1F27EC74-24FA-4E87-A243-302BF229D498}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit-Tests", "Unit-Tests", "{B66DC137-C3A0-4AB0-8B74-43DE470AEE9D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckOfCardsUnitTest", "DeckOfCardsUnitTest\DeckOfCardsUnitTest.csproj", "{5DEB66DD-8156-4EFC-AE83-E8CD07E6A223}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckOfCardsUnittest", "DeckOfCardsUnittest\DeckOfCardsUnittest.csproj", "{9596FD16-0066-4A4E-9602-B728C8A2D8C2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1F27EC74-24FA-4E87-A243-302BF229D498} = {1F27EC74-24FA-4E87-A243-302BF229D498}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,16 +20,13 @@ Global
 		{1F27EC74-24FA-4E87-A243-302BF229D498}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F27EC74-24FA-4E87-A243-302BF229D498}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F27EC74-24FA-4E87-A243-302BF229D498}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5DEB66DD-8156-4EFC-AE83-E8CD07E6A223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5DEB66DD-8156-4EFC-AE83-E8CD07E6A223}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5DEB66DD-8156-4EFC-AE83-E8CD07E6A223}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5DEB66DD-8156-4EFC-AE83-E8CD07E6A223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9596FD16-0066-4A4E-9602-B728C8A2D8C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9596FD16-0066-4A4E-9602-B728C8A2D8C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9596FD16-0066-4A4E-9602-B728C8A2D8C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9596FD16-0066-4A4E-9602-B728C8A2D8C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{5DEB66DD-8156-4EFC-AE83-E8CD07E6A223} = {B66DC137-C3A0-4AB0-8B74-43DE470AEE9D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BFFC80A0-B4F4-4BD7-9B14-46EE5E3ACC93}

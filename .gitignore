@@ -8,6 +8,7 @@
 /DeckOfCards.API/DeckOfCards.API/bin/Debug/netcoreapp2.0
 *.user
 /DeckOfCards.API/DeckOfCards.API/bin/Release/netcoreapp2.0
-/DeckOfCards.API/DeckOfCardsUnitTest/bin/Debug/netcoreapp2.0
-/DeckOfCards.API/DeckOfCardsUnitTest/obj/Debug/netcoreapp2.0
-/DeckOfCards.API/DeckOfCardsUnitTest/obj
+/DeckOfCards.API/DeckOfCardsUnittest/bin/Debug/netcoreapp2.0
+/DeckOfCards.API/DeckOfCardsUnittest/obj
+/DeckOfCards.API/DeckOfCards.API/bin/Any CPU/Release/netcoreapp2.0
+/DeckOfCards.API/DeckOfCards.API/Properties/PublishProfiles
