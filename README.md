@@ -1,5 +1,5 @@
 # Introduction 
-A ASP.NET Core 2.0 Web API to produce a deck of 52 standard playing cards (Ace - King, Clubs - Spades) in JSON format and allow:
+ASP.NET Core 2.0 Web API to produce a deck of 52 standard playing cards (Ace - King, Clubs - Spades) in JSON format and allow:
 - Generateration of new unshuffled deck of cards
 - Shuffling the deck (using Fisher-Yates shuffle https://en.wikipedia.org/wiki/Fisher–Yates_shuffle)
 - Cutting the deck
